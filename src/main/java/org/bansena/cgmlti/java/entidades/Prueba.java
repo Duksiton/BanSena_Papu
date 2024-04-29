@@ -14,7 +14,9 @@ public class Prueba {
         CuotaManejo<Campania> cm1 = new CuotaManejo<Campania>(ca.getFechaInicio(), ca.getFechaFin(), ca.getValor(), ca);
 
         //CREAR CUENTA BANCARIA
-        
+        CuentaBancaria cuentica = new CuentaBancaria(234L, 12000.0, "COP");
+
+        cuentica.lManejos.add(cm1);
 
     }
 
