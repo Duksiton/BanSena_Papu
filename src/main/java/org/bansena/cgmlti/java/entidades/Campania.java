@@ -5,14 +5,10 @@ import java.time.LocalDate;
 public class Campania extends Habilitante {
 
     private String nombre;
-    private LocalDate fechaInicio;
-    private LocalDate fechaFin;
 
-    public Campania(Double valor, String nombre, LocalDate fechaInicio, LocalDate fechaFin) {
+    public Campania(Double valor, String nombre) {
         super(valor);
         this.nombre = nombre;
-        this.fechaInicio = fechaInicio;
-        this.fechaFin = fechaFin;
     }
 
     public String getNombre() {

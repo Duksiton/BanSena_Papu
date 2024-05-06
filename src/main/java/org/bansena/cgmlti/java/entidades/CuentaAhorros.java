@@ -1,11 +1,12 @@
 package org.bansena.cgmlti.java.entidades;
 
+import java.util.List;
+
 public class CuentaAhorros extends CuentaBancaria {
 
-    public CuentaAhorros(Long numero, Double saldo, String divisa) {
-        super(numero, saldo, divisa);
-
-        
+    public CuentaAhorros(Double valor, Long numero, Double saldo, String divisa, List<CuotaManejo> lManejos,
+            TarjetaDebito tarjetaDebito) {
+        super(valor, numero, saldo, divisa);
     }
 
 }
